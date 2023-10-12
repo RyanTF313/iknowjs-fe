@@ -2,7 +2,7 @@
 
  IKnowJS is a community based learning platform for learners to help other learners learn JS skills.
  
- You can see Jot in action [here](). 
+ You can see IKnowJS in action [here](). 
 
 --------------------------------------------
 ## User Stories
@@ -19,7 +19,7 @@
 
 --------------------------------------------
 
-## Technologies Used for Jot:
+## Technologies Used for IKnowJS:
 
 * React.js
 * Axios
@@ -56,7 +56,7 @@ I decided to build a backend application with Node, Mongoose, and Express, which
 
 
 --------------------------------------------
-## Future Plans for Jot:
+## Future Plans for IKnowJS:
 
 * Integrating with Nodes file sharing, input/output, and streaming packages.
 * Using some sort of socket software for.
