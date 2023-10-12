@@ -1,27 +1,64 @@
-# React + TypeScript + Vite
+# IKnowJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ IKnowJS is a community based learning platform for learners to help other learners learn JS skills.
+ 
+ You can see Jot in action [here](). 
 
-Currently, two official plugins are available:
+--------------------------------------------
+## User Stories
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* I can create a Media post.
+* I can create a Project post.
+* I can create a comment on post.
+* I can create a Like on post.
+* I can view a list of Media.
+* I can view a list of Projects.
+* I can edit a post.
+* I can view a post.
+* I can delete a post.
 
-## Expanding the ESLint configuration
+--------------------------------------------
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used for Jot:
 
-- Configure the top-level `parserOptions` property like this:
+* React.js
+* Axios
+* React-Router-dom
+* Vite
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+--------------------------------------------
+## How to Install IKnowJS locally:
+
+* Fork and clone this repository to your machine
+* Change into the new directory
+* Run npm install:
+
+```
+$ npm i
+
+```
+* Open another terminal tab, and run npm run start
+
+```
+$ npm run start
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+* A browser window will open, and you're all set.
+
+
+--------------------------------------------
+## Challenges During this Project
+
+My original idea had the usage of sockets for instant messaging, video calling, and real-time notifications. Sadly there were time constraits and these things had to be removed.
+
+I decided to build a backend application with Node, Mongoose, and Express, which you can view [here]().
+
+
+--------------------------------------------
+## Future Plans for Jot:
+
+* Integrating with Nodes file sharing, input/output, and streaming packages.
+* Using some sort of socket software for.
+* Connecting to a bucket like S3 for video, photo, and file saving.
+* Building a UI for live coding sessions.
